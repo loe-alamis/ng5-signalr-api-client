@@ -1,0 +1,11 @@
+<h2>SignalR Client Ng5 Test</h2>
+
+<div class="container">
+    <div>Current Status : {{message}}</div>
+    <div>
+        <label>History</label>
+        <ul id="discussion" *ngFor="let msg of messages">
+            <li>{{msg}}</li>
+        </ul>
+    </div>
+</div>
